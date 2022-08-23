@@ -1,14 +1,18 @@
 body {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
 }
 
 .container-tile { 
-    display: flex;
-    width: 480px;
-    height: 480px;
-    flex-flow: row wrap;
-    border: 2px solid black;
-    justify-content: space-evenly;
+    display:flex;
+    width:480px;
+    height:480px;
+    flex-flow:row wrap;
+    border:2px solid black;
+    justify-content:space-evenly;
+}
+
+.tile {
+    background-color:ghostwhite;
 }
