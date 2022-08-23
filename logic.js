@@ -39,7 +39,7 @@ clearButton.addEventListener('click', clearTiles);
 
 let eraserButton = document.querySelector('#eraser');
 eraserButton.addEventListener('click', () => {
-    tiles.forEach((t) => addDrawListener(t, 'rgb(181,207,201)'))
+    tiles.forEach((t) => addDrawListener(t, 'rgb(151,181,157)'))
 });
 
 let blackButton = document.querySelector('#black');
