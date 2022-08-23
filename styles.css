@@ -10,12 +10,16 @@ body {
     align-items:center;
 }
 
-.sidebar{
+.sidebar {
     flex:1;
     display:flex;
     flex-flow:column nowrap;
     justify-content:center;
     align-items:flex-start;
+}
+
+.options button {
+    width: 80px;
 }
 
 button {
@@ -51,8 +55,4 @@ h1 {
 
 .tile {
     background-color:rgb(181,207,201);
-}
-
-.colored {
-    background-color:black;
 }
