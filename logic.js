@@ -7,7 +7,7 @@ function createTiles(count) {
         tile.classList.add('tile');
         tile.style.cssText = `width:30px;height:30px;outline:.5px solid black;`;
         tile.addEventListener('mouseover', (e) => {
-            e.target.style.background = 'black';
+            e.target.classList.add('colored');
         });
         container.appendChild(tile);
         tiles.push(tile);
